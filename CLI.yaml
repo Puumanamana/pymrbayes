@@ -1,0 +1,246 @@
+lset:
+  code:
+    default: universal
+    type: str
+  coding:
+    default: all
+    type: str
+  covarion:
+    default: 'no'
+    type: str
+  nbetacat:
+    default: 5
+    type: int
+  ngammacat:
+    default: 4
+    type: int
+  nlnormcat:
+    default: 4
+    type: int
+  nmixtcat:
+    default: 4
+    type: int
+  nst:
+    default: 1
+    type: str
+  nucmodel:
+    default: protein
+    type: str
+  omegavar:
+    default: equal
+    type: str
+  parsmodel:
+    default: 'no'
+    type: str
+  ploidy:
+    default: diploid
+    type: str
+  rates:
+    default: equal
+    type: str
+mcmc:
+  allchains:
+    default: 'no'
+    type: str
+  allcomps:
+    default: 'no'
+    type: str
+  append:
+    default: 'no'
+    type: str
+  autotune:
+    default: 'yes'
+    type: str
+  burnin:
+    default: 0
+    type: int
+  burninfrac:
+    default: 0.25
+    type: float
+  checkfreq:
+    default: 2000
+    type: int
+  checkpoint:
+    default: 'yes'
+    type: str
+  data:
+    default: 'yes'
+    type: str
+  diagnfreq:
+    default: 5000
+    type: int
+  diagnstat:
+    default: avgstddev
+    type: str
+  mcmcdiagn:
+    default: 'yes'
+    type: str
+  minpartfreq:
+    default: 0.1
+    type: float
+  nchains:
+    default: 4
+    type: int
+  ngen:
+    default: 1000000
+    type: int
+  nperts:
+    default: 0
+    type: int
+  nruns:
+    default: 2
+    type: int
+  nswaps:
+    default: 1
+    type: int
+  ordertaxa:
+    default: 'no'
+    type: str
+  printall:
+    default: 'yes'
+    type: str
+  printfreq:
+    default: 1000
+    type: int
+  printmax:
+    default: 8
+    type: int
+  relburnin:
+    default: 'yes'
+    type: str
+  samplefreq:
+    default: 500
+    type: int
+  savetrees:
+    default: 'no'
+    type: str
+  startparams:
+    default: current
+    type: str
+  starttree:
+    default: current
+    type: str
+  stoprule:
+    default: 'no'
+    type: str
+  stopval:
+    default: 0.05
+    type: float
+  swapfreq:
+    default: 1
+    type: int
+  temp:
+    default: 0.1
+    type: float
+  tunefreq:
+    default: 100
+    type: int
+prset:
+  WNvarpr:
+    default: Exponential(10)
+    type: str
+  aamodelpr:
+    default: Fixed(Poisson)
+    type: str
+  aarevmatpr:
+    default: Dirichlet(1,1,...)
+    type: str
+  brlenspr:
+    default: Unconstrained:GammaDir(1,0.1,1,1)
+    type: str
+  clockratepr:
+    default: Fixed(1)
+    type: str
+  clockvarpr:
+    default: Strict
+    type: str
+  codoncatfreq:
+    default: Dirichlet(1,1,1)
+    type: str
+  covswitchpr:
+    default: Uniform(0,100)
+    type: str
+  cppmultdevpr:
+    default: Fixed(0.4)
+    type: str
+  cppratepr:
+    default: Exponential(0.1)
+    type: str
+  extinctionpr:
+    default: Beta(1,1)
+    type: str
+  fossilizationpr:
+    default: Beta(1,1)
+    type: str
+  generatepr:
+    default: Fixed
+    type: str
+  igrvarpr:
+    default: Exponential(1)
+    type: str
+  ilnvarpr:
+    default: Exponential(1)
+    type: str
+  m3omegapr:
+    default: Exponential
+    type: str
+  nodeagepr:
+    default: Unconstrained
+    type: str
+  ny98omega1pr:
+    default: Beta(1,1)
+    type: str
+  ny98omega3pr:
+    default: Exponential(1)
+    type: str
+  omegapr:
+    default: Dirichlet(1,1)
+    type: str
+  pinvarpr:
+    default: Uniform(0,1)
+    type: str
+  popsizepr:
+    default: Gamma(1,10)
+    type: str
+  popvarpr:
+    default: Equal
+    type: str
+  ratecorrpr:
+    default: Uniform(-1,1)
+    type: str
+  ratepr:
+    default: Fixed
+    type: str
+  revmatpr:
+    default: Dirichlet(1,1,1,1,1,1)
+    type: str
+  sampleprob:
+    default: 1
+    type: int
+  samplestrat:
+    default: Random
+    type: str
+  shapepr:
+    default: Exponential(1)
+    type: str
+  speciationpr:
+    default: Exponential(10)
+    type: str
+  statefreqpr:
+    default: Dirichlet(1,1,1,1)
+    type: str
+  symdirihyperpr:
+    default: Fixed(Infinity)
+    type: str
+  tk02varpr:
+    default: Exponential(1)
+    type: str
+  topologypr:
+    default: Uniform
+    type: str
+  tratiopr:
+    default: Beta(1,1)
+    type: str
+  treeagepr:
+    default: Gamma(1,1)
+    type: str
